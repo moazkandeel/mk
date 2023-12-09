@@ -1,0 +1,371 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* start nav */
+
+.nav{
+    background-color: rgb(158, 175, 157);
+}
+
+.nav img{
+    float: left;
+    width: 120px;
+    padding: 10px 35px;
+}
+
+.nav .nav-links{
+    float: right;
+
+    padding: 15px 0px 20px 0px;
+}
+
+.nav .nav-links li{
+    float: left;
+    padding: 0px 35px 0px 30px;
+}
+
+.nav .nav-links a{
+    color: hsl(0, 31%, 94%);
+    text-decoration: none;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.container-nav{
+    width: 80%;
+    margin: auto;
+}
+/* end nav */
+
+/* start Home */
+.home{
+    background-color: aquamarine;
+    background-image: url("image1/drew-coffman-1872.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.caption{
+    color: white;
+    padding-top: 100px;
+}
+.caption p{
+    color: #f1eded;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size:22px
+}
+.caption h1{
+    color: #f1eded;
+    font-family: 'Alegreya', serif;
+        font-weight: 500;
+        
+        font-size:66px
+    }
+
+    p{
+        margin: 20px 0px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-weight: 400;
+        font-size:20px
+
+}
+.bt button {
+    color: rgb(12, 11, 11);
+    border-radius: 3px;
+    padding: 10px 16px;
+    border: none;
+    
+}
+.btn{
+    background-color: #8e7754;
+}
+/* end Home */
+
+ /* start cont */
+.cont {
+    display: inline-block;
+    
+}
+
+.image-container, .text-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-right : -60px ;
+    padding-top: 50px;
+    margin-bottom: 50px;    
+    margin-left: 170px;
+    
+}
+
+ul {
+    list-style: none;
+    padding-top: 50px;
+    margin-left: -30px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+}
+li h2{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:32px
+    
+}
+
+li p{
+    font-family: "Alegreya Sans";
+    font-weight: 350;
+    font-size:17px
+}
+
+li span{
+    font-family: "Alegreya Sans";
+    font-weight: 350;
+    font-size:17px
+}
+
+/* end cont */
+
+/* start custom-container */
+.custom-container {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.text-box, .image-box {
+    display: inline-block;
+    vertical-align: top;
+    margin-left : 60px ;
+    padding-top: 50px;
+    margin-bottom: 50px;    
+    margin-right: 170px;
+}
+
+.text-box {
+    margin-right: 80px; 
+    margin-left: 190px;
+    margin-top: 50px;
+
+}
+.text-box h2{
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size:27px
+}
+
+.text-box p{
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    font-size:17px
+}
+/* End custom-container */
+
+.ph{
+    text-align: center;
+    padding-top: 150px;
+
+}
+.ph h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size:25px
+}
+.ph p{
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    font-size:17px
+}
+
+/* start container */
+
+.container{
+    /* background-color: rgb(255, 0, 43); */
+    width: 80%;
+    margin: auto;  
+    padding-top: 50px; 
+
+}
+
+.box {
+    /* background-color: blue; */
+    float: left;
+    width: 30%;
+    margin-right: 4%;
+    text-align: center;
+}
+.lbox{
+    width: 30%;
+    float: left;
+    text-align: center;
+    
+}
+.pbox{
+    width: 30%;
+    float: left;
+    margin-left: 4%;
+    text-align: center;
+}
+
+h3{
+    padding-top: 20px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size:22px
+
+}
+p{
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    font-size:15px
+}
+
+image{
+    width: 100%;
+    
+}
+.clear{
+    clear: both;
+}
+
+/* end container */
+
+/*  start map */
+
+.mo {
+    background-color: #F8F8F8;
+    float: left;
+    width: 100%;    
+    
+}
+
+.map img{
+    width: 100%;
+}
+.map, .text {
+
+    float: left;
+    vertical-align: top;
+    padding-top: 50px;
+    margin-bottom: 50px;    
+    margin-left: 110px;
+    padding-left: 80px;
+}
+h2{
+    
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size:18px
+}
+p{
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    font-size:13px
+    
+}
+span{
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    font-size:13px
+
+}
+
+.mo ,.map ul {
+    list-style: none;
+    
+}
+.clr{
+    clear: both;
+}
+/* end map  */
+
+/* start text  */
+.tp-contanier{
+
+    float: left;
+    background-color: #403D38;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.tp-contanier ul{
+    float: left;
+    width: 15%;
+    margin: 0;
+    padding-top: 20;
+    margin-left: 100px;
+}
+
+h4{
+    color: #f8f3f3;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size:18px
+}
+
+p{
+    color: #969696;
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    font-size:10px
+}
+
+span{
+    color: #969696;
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    font-size:10px
+
+}
+
+.clearing{
+    clear: both;
+}
+/* end text  */
+
+/* start end */
+.abo{
+    background-color: #353330;
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.mine{
+    text-align: center;
+}
+
+.small-images-container {
+    float: left;
+    width: 25%;
+    margin-left: 40%;
+    
+}
+.mine p{
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    font-size:15px
+}
+
+.small-image img {
+    width: 20%;
+    border-radius: 10px;
+}
+.cleared{
+    clear: both;
+}
+
+
